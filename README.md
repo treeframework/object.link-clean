@@ -1,6 +1,6 @@
 # The link-clean object
 
-The `link-clean` module simply displays a link without any text-decoration.
+The `link-clean` object simply displays a link without any text-decoration.
 
 Install using Bower:
 
