@@ -1,6 +1,6 @@
 {
   "name": "tree-link-clean",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/treeframework/object.link-clean",
   "authors": [
     "Harry Roberts <harry@csswizardry.com>",
@@ -12,5 +12,8 @@
   "keywords": [
     "css"
   ],
-  "license": "Apache"
+  "license": "Apache",
+  "dependencies": {
+    "tree-defaults": "latest"
+  }
 }
