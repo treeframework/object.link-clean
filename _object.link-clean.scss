@@ -20,6 +20,7 @@ $tree-enable-link-clean:       false !default;
     .#{$tree-link-clean-namespace}link-clean,
     %#{$tree-link-clean-namespace}link-clean {
 
+        &,
         &:hover,
         &:focus,
         &:active {
