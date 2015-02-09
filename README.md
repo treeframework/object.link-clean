@@ -4,7 +4,15 @@ The `link-clean` object simply displays a link without any text-decoration.
 
 Install using Bower:
 
-    $ bower install --save tree-link-clean
+```sh
+$ bower install tree-link-clean --save
+```
+
+Install using npm:
+
+```sh
+$ npm install tree-link-clean --save
+```
 
 ## Credits
 
