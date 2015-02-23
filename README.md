@@ -4,7 +4,7 @@ The `link-clean` object simply displays a link without any text-decoration.
 
 ## Dependencies
 
-The Link-clean object  depends on one other module:
+The Link-clean object depends on one other module:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 
