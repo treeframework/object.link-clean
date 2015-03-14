@@ -1,20 +1,20 @@
-# link-clean
+# u-link-clean
 
-The `link-clean` object simply displays a link without any text-decoration.
+The `link-clean` module simply displays a link without any text-decoration.
 
 ## Dependencies
 
-The Link-clean object depends on one other module:
+The `link-clean` module depends on one other module:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 
-If you install the Link-clean object using Bower or npm, you will get these
+If you install the `link-clean` module using Bower or npm, you will get these
 dependencies at the same time. If not using Bower or npm, please be sure to
 install and @import these dependencies in the relevant way.
 
 ## Installation
 
-You can install Link-clean object via Bower, npm, Git Submodule, or copy and
+You can install `link-clean` module via Bower, npm, Git Submodule, or copy and
 paste.
 
 ### Install using Bower:
@@ -23,10 +23,10 @@ paste.
 $ bower install tree-link-clean --save
 ```
 
-Once installed, `@import` into your project in its Object layer:
+Once installed, `@import` into your project in its Trump layer:
 
 ```scss
-@import "bower_components/tree-link-clean/object.link-clean";
+@import "bower_components/tree-link-clean/trump.link-clean";
 ```
 
 ### Install using npm:
@@ -38,27 +38,27 @@ $ npm install tree-link-clean --save
 ### Install as a Git Submodule:
 
 ```sh
-$ git submodule add git@github.com:treeframework/object.link-clean.git
+$ git submodule add git@github.com:treeframework/trump.link-clean.git
 ```
 
-Once installed, `@import` into your project in its Object layer:
+Once installed, `@import` into your project in its Trump layer:
 
 ```scss
-@import "object.link-clean/object.link-clean";
+@import "trump.link-clean/trump.link-clean";
 ```
 
 ### Install via file download
 
 The least recommended option for installation is to simply download
-`_object.link-clean.scss` into your project and `@import` it into your
-project in its Object layer.
+`_trump.link-clean.scss` into your project and `@import` it into your
+project in its Trump layer.
 
 ## Usage
 
-Basic usage of the Link-clean object uses the required classes:
+Basic usage of the `link-clean` module uses the required classes:
 
 ```html
-<a class="link-clean" href="#">
+<a class="u-link-clean" href="#">
     Link clean
 </a>
 ```
