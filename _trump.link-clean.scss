@@ -4,29 +4,24 @@
 //
 // *************************************
 
-// The link-clean object simply displays a link without any text-decoration.
+// The link-clean module simply displays a link without any text-decoration.
 
 // Predefine the variables below in order to enable specific features.
 $tree-link-clean-namespace:    $tree-namespace !default;
 
-$tree-enable-link-clean:       false !default;
 
 
 
 
 
-@if ($tree-enable-link-clean == true) {
+.#{$tree-link-clean-namespace}u-link-clean,
+%#{$tree-link-clean-namespace}u-link-clean {
 
-    .#{$tree-link-clean-namespace}link-clean,
-    %#{$tree-link-clean-namespace}link-clean {
-
-        &,
-        &:hover,
-        &:focus,
-        &:active {
-            text-decoration: none;
-        }
-
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none !important;
     }
 
 }
