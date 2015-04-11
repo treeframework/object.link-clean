@@ -1,18 +1,35 @@
-// *************************************
+// =============================================================================
 //
-//   #LINK-CLEAN
+// Name:          Link-clean
 //
-// *************************************
+// Description:   Link without any text-decoration.
+//
+// Block:         `u-link-clean`
+//
+// Markup:
+//
+// <a class="u-link-clean" href="#">...</a>
+//
+// =============================================================================
 
-// The link-clean module simply displays a link without any text-decoration.
+
+
+
+
+// Variables
+// =============================================================================
 
 // Predefine the variables below in order to enable specific features.
+
 $tree-link-clean-namespace:    $tree-namespace !default;
 
 
 
 
 
+// =============================================================================
+// Block: `u-link-clean`
+// =============================================================================
 
 .#{$tree-link-clean-namespace}u-link-clean,
 %#{$tree-link-clean-namespace}u-link-clean {

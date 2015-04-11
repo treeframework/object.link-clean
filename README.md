@@ -1,4 +1,4 @@
-# u-link-clean
+# link-clean
 
 The `link-clean` module simply displays a link without any text-decoration.
 
