@@ -31,8 +31,7 @@ $tree-link-clean-namespace:    $tree-namespace !default;
 // Block: `u-link-clean`
 // =============================================================================
 
-.#{$tree-link-clean-namespace}u-link-clean,
-%#{$tree-link-clean-namespace}u-link-clean {
+.#{$tree-link-clean-namespace}u-link-clean {
 
     &,
     &:hover,
