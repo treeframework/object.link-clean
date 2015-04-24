@@ -1,7 +1,7 @@
 {
   "name": "tree-link-clean",
   "description": "Simply displays a link without any text-decoration.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Ilia Kolev <info@iliakolev.com>",
   "bugs": {
     "url": "https://github.com/treeframework/trump.link-clean/issues"
@@ -11,8 +11,8 @@
   },
   "homepage": "https://github.com/treeframework/trump.link-clean",
   "keywords": [
-    "oocss",
-    "css"
+    "css",
+    "oocss"
   ],
   "license": "MIT",
   "main": "_trump.link-clean.scss",
