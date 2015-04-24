@@ -14,8 +14,7 @@ install and @import these dependencies in the relevant way.
 
 ## Installation
 
-You can install `link-clean` module via Bower, npm, Git Submodule, or copy and
-paste.
+You can install `link-clean` module via Bower, npm, or copy and paste.
 
 ### Install using Bower:
 
@@ -35,18 +34,6 @@ Once installed, `@import` into your project in its Trump layer:
 $ npm install tree-link-clean --save
 ```
 
-### Install as a Git Submodule:
-
-```sh
-$ git submodule add git@github.com:treeframework/trump.link-clean.git
-```
-
-Once installed, `@import` into your project in its Trump layer:
-
-```scss
-@import "trump.link-clean/trump.link-clean";
-```
-
 ### Install via file download
 
 The least recommended option for installation is to simply download
@@ -58,9 +45,7 @@ project in its Trump layer.
 Basic usage of the `link-clean` module uses the required classes:
 
 ```html
-<a class="u-link-clean" href="#">
-    Link clean
-</a>
+<a class="u-link-clean" href="#">...</a>
 ```
 
 ## Credits
