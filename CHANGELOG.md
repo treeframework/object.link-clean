@@ -1,4 +1,8 @@
-# u-link-clean Changelog
+# link-clean Changelog
+
+## [0.3.0] - 2015-04-24
+
+* Deprecate placeholder selector.
 
 ## [0.2.0] - 2015-03-14
 
